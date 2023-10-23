@@ -1,0 +1,117 @@
+:root {
+  --white: white;
+  --background: rgba(0, 0, 0, 0.747);
+  --black: black;
+  --green: #37af65;
+  --red: #af3737;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: Poppins, sans-serif;
+  font-size: 1.2rem;
+  color: var(--white);
+  background-image: url(assets/background1920.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#title {
+  margin: 50px 0 10px 0;
+}
+
+#description {
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px var(--background);
+}
+
+.centered {
+  text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.w100 {
+  display: block;
+  width: 100%;
+  background-color: var(--white);
+  border: none;
+  border-radius: 5px;
+}
+
+.p10 {
+  padding: 10px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb5 {
+  margin-bottom: 5px;
+}
+
+.ml5 {
+  margin-left: 5px;
+}
+
+.clue {
+  font-size: .9rem;
+  font-style: italic;
+}
+
+#survey-form {
+  min-width: 300px;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 5px;
+  background-color: var(--background);
+}
+
+select, input, textarea {
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--black);
+}
+
+input[type="checkbox"] {
+  width: unset;
+  display: inline;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  transform: scale(1.5);
+}
+
+textarea {
+  margin-bottom: 50px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  color: var(--white);
+  font-weight: bold;
+  background-color: var(--green);
+}
+
+form:invalid input[type="submit"] {
+  background-color: var(--red);
+}

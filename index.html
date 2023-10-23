@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="shortcut icon" href="assets/favicon16.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+  <!-- ------------ -->
+</head>
+<body>
+  <h1 class="centered uppercase text-shadow" id="title">Survey Form</h1>
+  <p class="centered text-shadow" id="description">Thank you for your help!</p>
+
+  <form action="#title" id="survey-form">
+    <label for="name" id="name-label" class="mb5">Name</label>
+    <input type="text" id="name" class="w100 mb20 p10" placeholder="Enter your name" required>
+    <label for="email" id="email-label" class="mb5">Email</label>
+    <input type="email" id="email" class="w100 mb20 p10" placeholder="Enter your email" required>
+    <label for="number" id="number-label" class="mb5">Age<span class="clue">(optional)</span></label>
+    <input type="number" id="number" class="w100 mb20  p10" placeholder="Enter your age" min="13" max="100">
+    <p class="mb5">Which option best describes your current role?</p>
+    <select required id="dropdown" class="w100 mb20 p10">
+      <option value="" disabled selected >Select an option</option>
+      <option value="student" name="student">Student</option>
+      <option value="teacher" name="teacher">Teacher</option>
+      <option value="developer" name="developer">Developer</option>
+      <option value="other" name="other">Other</option>
+    </select>
+    <p class="mb5">What did you like more? Check all that apply <span class="clue">(optional)</span></p>
+    <div class="item mb5">
+      <input type="checkbox" value="projects" name="projects" id="projects" class="ml5">
+      <label for="projects" class="ml5">Projects</label>
+    </div>
+    <div class="item mb5" ml5>
+      <input type="checkbox" value="challenges" name="challenges" id="challenges" class="ml5">
+      <label for="challenges" class="ml5">Challenges</label>
+    </div>
+    <div class="item mb5">
+      <input type="checkbox" value="forum" name="forum" id="forum" class="ml5">
+      <label for="forum" class="ml5">Forum</label>
+    </div>
+    <div class="item mb20">
+      <input type="checkbox" value="wiki" name="wiki" id="wiki" class="ml5">
+      <label for="wiki" class="ml5">Wiki</label>
+    </div>
+    <p class="mb5">Would you recommend us to a friend?</p>
+    <div class="item mb5">
+      <input type="radio" checked name="recommend" value="sure" id="sure" class="ml5">
+      <label for="sure" class="ml5">Sure</label>
+    </div>
+    <div class="item mb5" ml5>
+      <input type="radio" name="recommend" value="maybe" id="maybe" class="ml5">
+      <label for="maybe" class="ml5">Maybe</label>
+    </div>
+    <div class="item mb20">
+      <input type="radio" name="recommend" value="notSure" id="not-sure" class="ml5">
+      <label for="not-sure" class="ml5">Not sure</label>
+    </div>
+    <p class="mb5 ml5">Tell us your thoughts! Up to 500 characters<span class="clue">(optional)</span></p>
+    <textarea cols="30" rows="8" maxlength="500" placeholder="Write here..." class="w100 p10"></textarea>
+    <input type="submit" value="Submit"  id="submit" class="w100 p10 uppercase">
+  </form>
+</body>
+</html>
