@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/adrianogtl/parallaxsite">
+  <a href="https://github.com/adrianogtl/freecodecamp-survey-form/">
     <img src="assets/icon96.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -38,19 +38,13 @@
 </details>
 
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Screenshot][screenshot-path]
+![Preview][preview-src]
 * **Objective**: Build an app that is functionally similar to https://survey-form.freecodecamp.rocks
 
 * 1st certification project in freeCodeCamp's Responsive Web Design curriculum
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -58,17 +52,11 @@
 
 * [GitHub Pages][github-pages]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See [LICENSE][license-url] for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
@@ -78,9 +66,6 @@ Adriano Garcia - [adrianogtlopes@gmail.com](mailto:adrianogtlopes@gmail.com)
 
 Project Link: [https://adrianogtl.github.io/freecodecamp-survey-form/](https://adrianogtl.github.io/freecodecamp-survey-form/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -88,9 +73,8 @@ Project Link: [https://adrianogtl.github.io/freecodecamp-survey-form/](https://a
 * Font by [Google Fonts][google-fonts-url]
 * Icon by [Icons8][icons8-url]
 * Photo by [Annie Spratt][photo-author-url] from [unsplash][unsplash-url] 
-* README template by [Othneil Drew][readme-template]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="center"><a href="#readme-top">back to top ⬆️</a></p>
 
 
 
@@ -98,7 +82,7 @@ Project Link: [https://adrianogtl.github.io/freecodecamp-survey-form/](https://a
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 <!-- ABOUT -->
-[screenshot-path]: assets/screenshot.jpeg
+[preview-src]: assets/preview.gif
 
 <!-- BUILT WITH -->
 [github-pages]: https://pages.github.com/
@@ -111,5 +95,4 @@ Project Link: [https://adrianogtl.github.io/freecodecamp-survey-form/](https://a
 [google-fonts-url]: https://fonts.google.com/
 [icons8-url]: https://icons8.com
 [unsplash-url]: https://unsplash.com/
-[readme-template]: https://github.com/othneildrew/Best-README-Template
 [photo-author-url]: https://unsplash.com/@anniespratt
