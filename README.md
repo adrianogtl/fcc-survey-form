@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/adrianogtl/freecodecamp-survey-form/">
+  <a href="https://adrianogtl.github.io/freecodecamp-survey-form/">
     <img src="assets/icon96.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -15,7 +15,7 @@
     <br />
     <a href="https://adrianogtl.github.io/freecodecamp-survey-form/">View Demo</a>
     ·
-    <a href="https://www.freecodecamp.org/">freeCodeCamp</a>
+    <a href="https://www.freecodecamp.org/">freeCodeCamp 🔥</a>
   </p>
 </div>
 
@@ -64,8 +64,6 @@ Distributed under the MIT License. See [LICENSE][license-url] for more informati
 
 Adriano Garcia - [adrianogtlopes@gmail.com](mailto:adrianogtlopes@gmail.com)
 
-Project Link: [https://adrianogtl.github.io/freecodecamp-survey-form/](https://adrianogtl.github.io/freecodecamp-survey-form/)
-
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -74,7 +72,7 @@ Project Link: [https://adrianogtl.github.io/freecodecamp-survey-form/](https://a
 * Icon by [Icons8][icons8-url]
 * Photo by [Annie Spratt][photo-author-url] from [unsplash][unsplash-url] 
 
-<p align="center"><a href="#readme-top">back to top ⬆️</a></p>
+<p align="right"><a href="#readme-top">back to top 🔝</a></p>
 
 
 
