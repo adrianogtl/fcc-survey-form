@@ -15,7 +15,7 @@
     <br />
     <a href="https://adrianogtl.github.io/freecodecamp-survey-form/">View Demo</a>
     ·
-    <a href="https://www.freecodecamp.org/">freeCodeCamp 🔥</a>
+    <a href="https://www.freecodecamp.org/">freeCodeCamp</a>
   </p>
 </div>
 
@@ -72,7 +72,7 @@ Adriano Garcia - [adrianogtlopes@gmail.com](mailto:adrianogtlopes@gmail.com)
 * Icon by [Icons8][icons8-url]
 * Photo by [Annie Spratt][photo-author-url] from [unsplash][unsplash-url] 
 
-<p align="right"><a href="#readme-top">back to top 🔝</a></p>
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 
 
